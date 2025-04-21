@@ -61,16 +61,10 @@ endmodule
 ```
 
 **RTL realization**
-
 ![TRUTH TABLE FOR EX2]![WhatsApp Image 2025-04-21 at 18 28 07_546aad16](https://github.com/user-attachments/assets/6c59f916-0e5d-4d09-bbdf-35ebdfc0fd28)
-
 
 **Truth Table**
 ![image](https://github.com/user-attachments/assets/23db7cdd-2c1c-4f86-8518-d22201ede523)
-
-
-
-
 
 **Timing Diagram**
 
