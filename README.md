@@ -62,12 +62,11 @@ endmodule
 
 **RTL realization**
 
-![image](https://github.com/user-attachments/assets/83b00688-53ce-4b6f-947d-6d64ec0e1623)
+![TRUTH TABLE FOR EX2]![WhatsApp Image 2025-04-21 at 18 28 07_546aad16](https://github.com/user-attachments/assets/6c59f916-0e5d-4d09-bbdf-35ebdfc0fd28)
+
 
 **Truth Table**
-
-
-![TRUTH TABLE FOR EX2]![WhatsApp Image 2025-04-21 at 18 28 07_546aad16](https://github.com/user-attachments/assets/6c59f916-0e5d-4d09-bbdf-35ebdfc0fd28)
+![image](https://github.com/user-attachments/assets/23db7cdd-2c1c-4f86-8518-d22201ede523)
 
 
 
