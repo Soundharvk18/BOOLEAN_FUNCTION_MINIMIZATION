@@ -67,7 +67,9 @@ endmodule
 **Truth Table**
 
 
-![TRUTH TABLE FOR EX2](https://github.com/user-attachments/assets/afc3a642-9382-4700-8677-6e9486d40c60)
+![TRUTH TABLE FOR EX2]![WhatsApp Image 2025-04-21 at 18 28 07_546aad16](https://github.com/user-attachments/assets/6c59f916-0e5d-4d09-bbdf-35ebdfc0fd28)
+
+
 
 
 
