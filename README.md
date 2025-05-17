@@ -32,45 +32,55 @@ Hardware – PCs, Cyclone II , USB flasher
 
 
 **Program:**
-```
+
 /* Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
 
-Developed by:Jeya soundhar P
+Developed by: Jeya soundhar P
+
 RegisterNumber:212224040138
 
 
-module exp2(A,B,C,D,W,X,Y,Z,F1,F2);
-input A,B,C,D,W,X,Y,Z;
-wire x1,x2,x3,x4,x5,x6,x7,x8,x9,x10;
-output F1,F2;
-assign x1=(~A)&(~B)&(~C)&(~D);
-assign x2=(A)&(~C)&(~D);
-assign x3=(~B)&(C)&(~D);
-assign x4=(~A)&(B)&(C)&(D);
-assign x5=(B)&(~C)&(D);
-assign x6=(X)&(~Y)&(Z);
-assign x7=(~X)&(~Y)&(Z);
-assign x8=(~W)&(X)&(Y);
-assign x9=(W)&(~X)&(Y);
-assign x10=(W)&(X)&(Y);
-assign F1=x1|x2|x3|x4|x5;
-assign F2=x6|x7|x8|x9|x10;
+module ex2a(a,b,c,d,f1);
+
+input a,b,c,d;
+
+output f1;
+
+assign f1=((~a&b&d)|(~b&~d)|(a&b&~c));
+
 endmodule
 
-*/
-```
+module ex2b(w,x,y,z,f2);
+
+input w,x,y,z;
+
+output f2;
+
+assign f2=((~y&z)|(x&y)|(w&y));
+
+endmodule
+
 
 **RTL realization**
-![TRUTH TABLE FOR EX2]![WhatsApp Image 2025-04-21 at 18 28 07_546aad16](https://github.com/user-attachments/assets/6c59f916-0e5d-4d09-bbdf-35ebdfc0fd28)
 
-**Truth Table**
-![image](https://github.com/user-attachments/assets/23db7cdd-2c1c-4f86-8518-d22201ede523)
+![Screenshot 2025-04-21 190546](https://github.com/user-attachments/assets/f85ea5a2-5cc0-474e-8fb8-422dff5ae141)
+
+![Screenshot 2025-04-21 190553](https://github.com/user-attachments/assets/1d819669-7c42-4b62-9f87-4d3de6d0e3f7)
+
+
+**Truth table**
+
+![Screenshot 2025-04-21 190512](https://github.com/user-attachments/assets/79f0246d-f1e5-4b5e-8514-419d9a991fdc)
+
+![Screenshot 2025-04-21 190535](https://github.com/user-attachments/assets/e76712ba-59bc-45d1-bd1e-9ceb4a1310cf)
+
+
 
 **Timing Diagram**
 
+![Screenshot 2025-04-21 190622](https://github.com/user-attachments/assets/bccba43f-21d7-4092-8711-235598b39175)
 
-
-![Screenshot 2025-04-21 143140](https://github.com/user-attachments/assets/9ba00dd0-639f-4975-acaf-842cc5424570)
+![Screenshot 2025-04-21 190635](https://github.com/user-attachments/assets/4e791b71-785f-4d17-bdd6-952111aec792)
 
 
 **Result:**
